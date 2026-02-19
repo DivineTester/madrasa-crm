@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
         // Proxy local /backend requests to remote API to avoid CORS during development
         proxy: {
           '^/backend/.*': {
-            target: 'https://madrasa.quantumautomationsuite.com',
+            target: 'https://madrasa.quantumautomationssuite.com',
             changeOrigin: true,
             secure: false,
             ws: false,
